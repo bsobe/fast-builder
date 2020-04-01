@@ -1,2 +1,4 @@
 rootProject.name='Fast Builder'
 include ':app'
+include ':fastbuildercompiler'
+include ':fastbuilderannotations'
