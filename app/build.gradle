@@ -36,6 +36,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    implementation project(':fastbuilderannotations')
-    kapt project(':fastbuildercompiler')
+    kapt 'com.github.bsobe.fast-builder:fastbuildercompiler:v1.0.0'
+    implementation 'com.github.bsobe.fast-builder:fastbuilderannotations:v1.0.0'
 }

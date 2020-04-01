@@ -10,12 +10,19 @@ import org.junit.Test
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 class ExampleUnitTest {
+
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun `given itemName is equals`() {
+        // Given
+        val givenName = "givenName"
+
+        // When
         val item = ItemBuilder()
-            .name("name")
+            .name(givenName)
             .value(14L)
             .build()
+
+        // Then
+        assertEquals(item.name, givenName)
     }
 }
