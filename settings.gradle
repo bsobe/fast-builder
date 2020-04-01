@@ -1,0 +1,2 @@
+rootProject.name='Fast Builder'
+include ':app'
