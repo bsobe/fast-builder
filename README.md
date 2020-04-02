@@ -5,6 +5,12 @@
 ## Fast Builder
 Fast Builder is a code generation tool that generates the builder classes, especially for the unit test class.
 
+## Summarize
+On the code generation side, Work done by the library is to generate a builder class of the model you add the annotation to.
+
+## TODO
+[X] An option to include object classes to the generation process.
+
 ## Motivation
 * Annoying duplicated and boilerplate codes
 * No more worrying about object changes
